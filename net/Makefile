@@ -90,5 +90,6 @@ obj-$(CONFIG_QRTR)		+= qrtr/
 obj-$(CONFIG_NET_NCSI)		+= ncsi/
 # SEC_PRODUCT_FEATURE_KNOX_SUPPORT_NPA {
 obj-$(CONFIG_KNOX_NCM)		+= ncm/
+obj-$(CONFIG_WIREGUARD)		+= wireguard/
 # SEC_PRODUCT_FEATURE_KNOX_SUPPORT_NPA }
 obj-$(CONFIG_XDP_SOCKETS)	+= xdp/
